@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title and Description -->
+    <title>Mateo Guevara | Tasky App</title>
+    <meta name="description" content="Hello, I'm Mateo Guevara and this is my portfolio. Here you can see my projects, my knowledge, and education.">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="../static/styles.css">
+
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="portfolio, minimalist, developer">
+    <meta name="author" content="Mateo Guevara">
+
+    <!-- Import Montserrat and Roboto for headings -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Import Nunito, Lato, Open Sans, and Poppins for text -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Lato:wght@400;700&family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/6b28a3ad3d.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+  
+  <div class="line-izq"></div>
+  <div class="line-arriba"></div>
+  <div class="line-abajo"></div>
+  
+  <div class="content">
+    <header class="nav-header">
+      <nav class="navbar navbar-expand-lg navbar-expand-md d-flex align-items-center" style="margin-bottom: 35px;">
+          <div class="container-md" style="padding: 0px !important;">
+            <a class="navbar-brand align-items-center" href="index.html" style="padding-top: 8px;">Mateo Guevara</a>
+      </nav>
+    </header>
+
+    <main>
+      <header>
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../static/tk-menu.webp" class="d-block w-100" alt="Image of Tasky's project menu">
+              </div>
+              <div class="carousel-item">
+                <img src="../static/tk-task.webp" class="d-block w-100" alt="Image of Tasky's task management page">
+              </div>
+              <div class="carousel-item">
+                <img src="../static/tk-hp.webp" class="d-block w-100" alt="Image of Tasky's homepage">
+              </div>
+            </div>
+          </div>
+
+      </header>
+
+      <section id="description" style="margin-bottom: 30px; padding-top: 30px;">
+
+        <h2 class="subheadings" style="font-family: 'Montserrat', sans-serif; margin-bottom: 15px; font-weight: 600; margin-bottom: 10px;">Tasky App</h2>
+        <p style="margin-bottom: 10px;"><span style="font-weight: bold;">Year:</span> 2023</p>
+        <div class="d-flex">
+          <a href="https://taskyapp.pythonanywhere.com/" target="_blank"><button type="button" class="btn btn-sm cv" style="border-color: #000000ba; color: #000000b3"><i class="fa-solid fa-laptop fa-sm"></i> Demo</button></a>
+          <span style="padding-left: 0.8rem;"><a href="https://github.com/mateoguevaraa/tasky-app" target="_blank"><button type="button" class="btn github btn-sm" style="background-color: black; color:white;"><i class="fa-brands fa-github"></i> View Repository</button></a></span>
+        </div>
+
+        <p style="margin-top: 30px;">
+            Tasky is an application designed to help developers manage and track their projects.
+            This platform offers powerful tools to create, organize, edit, and delete tasks within each project.
+        </p>
+        <p> 
+            The <strong>idea</strong> behind this application arose because I wanted to organize myself with the projects I was doing in the Harvard CS50 course
+            and I didn't find any application that was specific for programmers, so I decided to create one for my final project.
+        </p>
+        <p>
+            It uses modern technologies like <strong>Flask, SQLAlchemy, and Jinja2</strong> on the <i>backend</i>, providing a robust and secure structure for data manipulation. 
+            On the <i>frontend</i>, <strong>HTML, CSS, and JavaScript</strong> are employed to provide an interactive and fluid user experience.
+        </p>
+        <p>
+            In the registration part, the application implements stringent verification regarding what the user enters in the form.
+            It uses a library to check if the entered email actually exists, in addition to other checks on the entered username, 
+            password, and to prevent spam and password decryption it uses Google's reCAPTCHA API.
+        </p>
+        <p>
+            With Tasky, developers can create individual projects, add and delete tasks, as well as mark them as completed or pending. 
+            The application is designed to be <i>intuitive</i> and <i>easy</i> to use, allowing users to focus on their tasks without complications in project management.
+        </p>
+        <p>    
+            It's an essential tool for any developer looking to optimize their productivity, 
+            as it offers a simple way to stay organized and focused on their projects.
+        </p>
+
+      </section>
+
+    </main>
+  </div>
+    
+</body> 
+
+</html>
