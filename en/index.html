@@ -1,230 +1,433 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
+  <head>
     <!-- Basic Meta Tags -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Title and Description -->
     <title>Mateo Guevara | Portfolio</title>
-    <meta name="description" content="Hi, I'm Mateo Guevara and this is my portfolio. Here, you can see my projects, skills, and education.">
+    <meta
+      name="description"
+      content="Hi, I'm Mateo Guevara and this is my portfolio. Here, you can see my projects, skills, and education."
+    />
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="../static/styles.css">
+    <link rel="stylesheet" href="../static/styles.css" />
 
     <!-- SEO Meta Tags -->
-    <meta name="keywords" content="portfolio, minimalistic, developer">
-    <meta name="author" content="Mateo Guevara">
+    <meta name="keywords" content="portfolio, minimalistic, developer" />
+    <meta name="author" content="Mateo Guevara" />
 
     <!-- Import Montserrat and Roboto for headings -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Import Nunito, Lato, Open Sans, and Poppins for text -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Lato:wght@400;700&family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Lato:wght@400;700&family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Icons -->
-    <script src="https://kit.fontawesome.com/6b28a3ad3d.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/6b28a3ad3d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-</head>
-
-<body>
-  
-  <div class="line-izq"></div>
-  <div class="line-arriba"></div>
-  <div class="line-abajo"></div>
-  
+  <body>
+    <div class="line-izq"></div>
+    <div class="line-arriba"></div>
+    <div class="line-abajo"></div>
 
     <div class="content">
       <header class="nav-header">
-        <nav class="navbar navbar-expand-lg navbar-expand-md d-flex align-items-center" style="margin-bottom: 35px; margin-top: 20px;">
-            <div class="container-md" style="padding: 0px !important;">
-              <a class="navbar-brand align-items-center" href="index.html" style="padding-top: 0px;">Mateo Guevara</a>
-              <button class="navbar-toggler" style="border: none !important;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa-solid fa-bars"></i>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav ms-auto nav-underline">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about">About Me</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      <span style="font-weight: 600;">EN</span>
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="../es/index.html">ES</a>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
+        <nav
+          class="navbar navbar-expand-lg navbar-expand-md d-flex align-items-center"
+          style="margin-bottom: 35px; margin-top: 20px"
+        >
+          <div class="container-md" style="padding: 0px !important">
+            <a
+              class="navbar-brand align-items-center"
+              href="index.html"
+              style="padding-top: 0px"
+              >Mateo Guevara</a
+            >
+            <button
+              class="navbar-toggler"
+              style="border: none !important"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarText"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav ms-auto nav-underline">
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <span style="font-weight: 600">EN</span>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a class="dropdown-item" href="../es/index.html">ES</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
             </div>
-          </nav>
+          </div>
+        </nav>
       </header>
 
       <main>
         <header>
-
-          <h1 style="font-weight: 600; font-size: 2.3rem; margin-bottom: 20px;">Hi! I'm Mateo.
-            <br>
-            <span style="color: rgba(0, 0, 0, 0.526);">Full-Stack Developer and Industrial Engineering student.</span>
+          <h1 style="font-weight: 600; font-size: 2.3rem; margin-bottom: 20px">
+            Hi! I'm Mateo.
+            <br />
+            <span style="color: rgba(0, 0, 0, 0.526)"
+              >Full-Stack Developer and Industrial Engineering student.</span
+            >
           </h1>
-          <p>I'm a <span class="a6">curious</span> person in constant learning,
-            combining knowledge to create <span class="a2">innovative</span> and <span class="a4">effective</span> solutions.</p>
-          <div style="padding-top: 5px;"></div>
-          <a href="#about" style="font-weight: 400;">More about me <i class="fa-solid fa-arrow-right-long fa-sm"></i></a>
-          <br>
-          <div style="padding-top: 25px;"></div>
+          <p>
+            I'm a <span class="a6">curious</span> person in constant learning,
+            combining knowledge to create <span class="a2">innovative</span> and
+            <span class="a4">effective</span> solutions.
+          </p>
+          <div style="padding-top: 5px"></div>
+          <a href="#about" style="font-weight: 400"
+            >More about me <i class="fa-solid fa-arrow-right-long fa-sm"></i
+          ></a>
+          <br />
+          <div style="padding-top: 25px"></div>
           <div class="d-flex">
-            <a href="https://github.com/mateoguevaraa" target="_blank"><button type="button" class="btn github" style="background-color: black; color:white;">View Github</button></a>
-            <span style="padding-left: 0.8rem;"><a href="../static/cv-ingles.jpg" download><button type="button" class="btn cv" style="border-color: rgba(0, 0, 0, 0.568); color: rgba(0, 0, 0, 0.667)">Download CV</button></a></span>
+            <a href="https://github.com/mateoguevaraa" target="_blank"
+              ><button
+                type="button"
+                class="btn github"
+                style="background-color: black; color: white"
+              >
+                View Github
+              </button></a
+            >
+            <span style="padding-left: 0.8rem"
+              ><a href="../static/cv-ingles.jpg" download
+                ><button
+                  type="button"
+                  class="btn cv"
+                  style="
+                    border-color: rgba(0, 0, 0, 0.568);
+                    color: rgba(0, 0, 0, 0.667);
+                  "
+                >
+                  Download CV
+                </button></a
+              ></span
+            >
           </div>
-          
         </header>
 
-        <section id="projects" style="margin-bottom: 20px; padding-top: 50px;">
-
-          <h4 class="subheadings" style="font-family: 'Montserrat', sans-serif; margin-bottom: 15px; font-size: 1.2rem; font-weight: 600;">Projects</h4>
+        <section id="projects" style="margin-bottom: 20px; padding-top: 50px">
+          <h4
+            class="subheadings"
+            style="
+              font-family: 'Montserrat', sans-serif;
+              margin-bottom: 15px;
+              font-size: 1.2rem;
+              font-weight: 600;
+            "
+          >
+            Projects
+          </h4>
 
           <div class="container">
             <div class="row">
-
-              <div class="col-lg-7 col-md-7 pro mb-4" style="padding-right: 15px !important; padding-top: 6px !important;">
-                <img class="shadow-sm" src="../static/tk-cover.webp" alt="Tasky-app project cover">
+              <div
+                class="col-lg-7 col-md-7 pro mb-4"
+                style="
+                  padding-right: 15px !important;
+                  padding-top: 6px !important;
+                "
+              >
+                <img
+                  class="shadow-sm"
+                  src="../static/groovefinder-portfolio.webp"
+                  alt="GrooveFinder project cover"
+                />
               </div>
               <div class="col-lg-5 col-md-5 pro mb-4">
-                <span style="font-weight: 700; top: 0 !important; opacity: 97%;">Tasky App</span>
-                <br>
-                <div style="padding-top: 10px;"></div>
-                <span class="info">Task management app for developers.
-                  <strong style="opacity: 90%;">Python, Flask, SQLite, Jinja2, Bootstrap, JavaScript, CSS, and HTML.</strong>
-                  <br>
-                  <div style="padding-top: 20px;"></div>
-                  <a href="tasky.html">Read more <i class="fa-solid fa-arrow-right-long fa-sm"></i></a>
+                <span style="font-weight: 700; top: 0 !important; opacity: 97%"
+                  >GrooveFinder</span
+                >
+                <br />
+                <div style="padding-top: 10px"></div>
+                <span class="info">
+                  Web App that allows discovering new music genres and tracks.
+                  Built with
+                  <strong style="opacity: 90%">
+                    React, Bootstrap, JavaScript, Spotify API, CSS, and
+                    HTML.</strong
+                  >
+                  <br />
+                  <a href="groovefinder.html"
+                    >Read more <i class="fa-solid fa-arrow-right-long fa-sm"></i
+                  ></a>
                 </span>
               </div>
-              
-              <div class="col-lg-7 col-md-7 pro mb-4" style="padding-right: 15px !important; padding-top: 6px !important;">
-                <img class="shadow-sm" src="../static/fn-cover-.webp" alt="Finance CS50 project cover">
+
+              <div
+                class="col-lg-7 col-md-7 pro mb-4"
+                style="
+                  padding-right: 15px !important;
+                  padding-top: 6px !important;
+                "
+              >
+                <img
+                  class="shadow-sm"
+                  src="../static/tk-cover.webp"
+                  alt="Tasky-app project cover"
+                />
               </div>
               <div class="col-lg-5 col-md-5 pro mb-4">
-                <span style="font-weight: 700; top: 0 !important; opacity: 97%;">Finance CS50</span>
-                <br>
-                <div style="padding-top: 10px;"></div>
+                <span style="font-weight: 700; top: 0 !important; opacity: 97%"
+                  >Tasky App</span
+                >
+                <br />
+                <div style="padding-top: 10px"></div>
+                <span class="info"
+                  >Task management app for developers.
+                  <strong style="opacity: 90%"
+                    >Python, Flask, SQLite, Jinja2, Bootstrap, JavaScript, CSS,
+                    and HTML.</strong
+                  >
+                  <br />
+                  <div style="padding-top: 20px"></div>
+                  <a href="tasky.html"
+                    >Read more <i class="fa-solid fa-arrow-right-long fa-sm"></i
+                  ></a>
+                </span>
+              </div>
+
+              <div
+                class="col-lg-7 col-md-7 pro mb-4"
+                style="
+                  padding-right: 15px !important;
+                  padding-top: 6px !important;
+                "
+              >
+                <img
+                  class="shadow-sm"
+                  src="../static/fn-cover-.webp"
+                  alt="Finance CS50 project cover"
+                />
+              </div>
+              <div class="col-lg-5 col-md-5 pro mb-4">
+                <span style="font-weight: 700; top: 0 !important; opacity: 97%"
+                  >Finance CS50</span
+                >
+                <br />
+                <div style="padding-top: 10px"></div>
                 <span class="info">
                   Platform simulating stock buying/selling.
-                  <strong style="opacity: 90%;">Python, Flask, Jinja2, SQLite, Bootstrap, CSS, and HTML.</strong>
-                  <br>
-                  <div style="padding-top: 20px;"></div>
-                  <a href="finance.html">Read more <i class="fa-solid fa-arrow-right-long fa-sm"></i></a>
+                  <strong style="opacity: 90%"
+                    >Python, Flask, Jinja2, SQLite, Bootstrap, CSS, and
+                    HTML.</strong
+                  >
+                  <br />
+                  <div style="padding-top: 20px"></div>
+                  <a href="finance.html"
+                    >Read more <i class="fa-solid fa-arrow-right-long fa-sm"></i
+                  ></a>
                 </span>
               </div>
 
-
-              <div class="col-lg-7 col-md-7 pro mb-3" style="padding-right: 15px !important; padding-top: 6px !important;">
-                <img class="shadow-sm" src="../static/pf-cover.webp" alt="Portfolio project cover">
+              <div
+                class="col-lg-7 col-md-7 pro mb-3"
+                style="
+                  padding-right: 15px !important;
+                  padding-top: 6px !important;
+                "
+              >
+                <img
+                  class="shadow-sm"
+                  src="../static/pf-cover.webp"
+                  alt="Portfolio project cover"
+                />
               </div>
               <div class="col-lg-5 col-md-5 pro mb-3">
-                <span style="font-weight: 700; top: 0 !important; opacity: 97%;">Portfolio</span>
-                <br>
-                <div style="padding-top: 10px;"></div>
-                <span class="info">Personal portfolio, minimalist style.
-                  Developed with <strong style="opacity: 90%;">JavaScript, Bootstrap, CSS, and HTML.</strong>
-                  <br>
-                  <div style="padding-top: 20px;"></div>
-                  <a href="portfolio.html">Read more <i class="fa-solid fa-arrow-right-long fa-sm"></i></a>
+                <span style="font-weight: 700; top: 0 !important; opacity: 97%"
+                  >Portfolio</span
+                >
+                <br />
+                <div style="padding-top: 10px"></div>
+                <span class="info"
+                  >Personal portfolio, minimalist style. Developed with
+                  <strong style="opacity: 90%"
+                    >JavaScript, Bootstrap, CSS, and HTML.</strong
+                  >
+                  <br />
+                  <div style="padding-top: 20px"></div>
+                  <a href="portfolio.html"
+                    >Read more <i class="fa-solid fa-arrow-right-long fa-sm"></i
+                  ></a>
                 </span>
               </div>
-
             </div>
           </div>
-
         </section>
 
-        <section id="about" style="padding-top: 30px; margin-bottom: 30px;">
+        <section id="about" style="padding-top: 30px; margin-bottom: 30px">
+          <h4
+            class="subheadings"
+            style="
+              font-family: 'Montserrat', sans-serif;
+              margin-bottom: 15px;
+              font-size: 1.2rem;
+              font-weight: 600;
+            "
+          >
+            About Me
+          </h4>
 
-          <h4 class="subheadings" style="font-family: 'Montserrat', sans-serif; margin-bottom: 15px; font-size: 1.2rem; font-weight: 600;">About Me</h4>
-
-          <p>I'm a developer and student from <span class="arg"><span class="a9">Arg</span>e<span class="a11">n</span>ti<span class="a13">na.</span></span></p>
-          <p>University marked my entry into the vibrant world of <span class="a8">programming.</span> 
-          <br>Fascinated by its possibilities, I delved deeper into learning.</p>
-
-          <p>Succesfully completed the course "<span class="a5">CS50x</span>: Introduction to Computer Science" from Harvard, 
-            which provided me with a solid foundation in various programming languages and trained me to create full-stack web applications.</p>
-
-          <p>Fueled by a passion for understanding and applying knowledge to <span class="a3">tackle</span> challenges. 
-            Committed to <span class="a1">continuous learning.</span>
+          <p>
+            I'm a developer and student from
+            <span class="arg"
+              ><span class="a9">Arg</span>e<span class="a11">n</span>ti<span
+                class="a13"
+                >na.</span
+              ></span
+            >
+          </p>
+          <p>
+            University marked my entry into the vibrant world of
+            <span class="a8">programming.</span> <br />Fascinated by its
+            possibilities, I delved deeper into learning.
           </p>
 
-          <p>Currently, I'm seeking a developer role to make an impact in the tech industry.</p>
+          <p>
+            Succesfully completed the course "<span class="a5">CS50x</span>:
+            Introduction to Computer Science" from Harvard, which provided me
+            with a solid foundation in various programming languages and trained
+            me to create full-stack web applications.
+          </p>
 
+          <p>
+            Fueled by a passion for understanding and applying knowledge to
+            <span class="a3">tackle</span> challenges. Committed to
+            <span class="a1">continuous learning.</span>
+          </p>
+
+          <p>
+            Currently, I'm seeking a developer role to make an impact in the
+            tech industry.
+          </p>
         </section>
 
-        <section id="contact" style="padding-top: 20px; margin-bottom: 30px;">
+        <section id="contact" style="padding-top: 20px; margin-bottom: 30px">
+          <h4
+            class="subheadings"
+            style="
+              font-family: 'Montserrat', sans-serif;
+              margin-bottom: 15px;
+              font-size: 1.2rem;
+              font-weight: 600;
+            "
+          >
+            Contact
+          </h4>
 
-          <h4 class="subheadings" style="font-family: 'Montserrat', sans-serif; margin-bottom: 15px; font-size: 1.2rem; font-weight: 600;">Contact</h4>
-
-          <p><a href="mailto:mateoaguevara@gmail.com">mateoaguevara@gmail.com</a></p>
-          <p><a href="https://github.com/mateoguevaraa" target="_blank">Github</a></p>
-          <p><a href="https://www.linkedin.com/in/mateo-guevara-/" target="_blank">LinkedIn</a></p>
-
+          <p>
+            <a href="mailto:mateoaguevara@gmail.com">mateoaguevara@gmail.com</a>
+          </p>
+          <p>
+            <a href="https://github.com/mateoguevaraa" target="_blank"
+              >Github</a
+            >
+          </p>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/mateo-guevara-/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </p>
         </section>
-
       </main>
     </div>
 
-
-
-
-
-
     <script type="module">
+      import {
+        annotate,
+        annotationGroup,
+      } from "https://unpkg.com/rough-notation?module";
 
-      import { annotate, annotationGroup } from 'https://unpkg.com/rough-notation?module';
-      
-      const n1 = document.querySelector('.a1');
-      const n2 = document.querySelector('.a2');
-      const n3 = document.querySelector('.a3');
-      const n4 = document.querySelector('.a4');
-      const n5 = document.querySelector('.a5');
-      const n6 = document.querySelector('.a6');
-      const n8 = document.querySelector('.a8');
-      const n9 = document.querySelector('.a9');
-      const n11 = document.querySelector('.a11');
-      const n13 = document.querySelector('.a13');
-      
-      const a1 = annotate(n1, { type: 'highlight', color: '#3be37332'});
-      const a2 = annotate(n2, { type: 'highlight', color: '#97e72e51' });
-      const a3 = annotate(n3, { type: 'highlight', color: '#33f3432f'  });
-      const a4 = annotate(n4, { type: 'highlight', color: '#f3e6335b'  });
-      const a5 = annotate(n5, { type: 'highlight', color: '#48d8005e'  });
-      const a6 = annotate(n6, { type: 'highlight', color: '#58f74947'  });
-      const a8 = annotate(n8, { type: 'highlight', color: '#aeeb0835' });
-      const a9 = annotate(n9, { type: 'underline', color: '#6cace446' });
-      const a11 = annotate(n11, { type: 'underline', color: '#ffb71c6e' });
-      const a13 = annotate(n13, { type: 'underline', color: '#6cace446' });
+      const n1 = document.querySelector(".a1");
+      const n2 = document.querySelector(".a2");
+      const n3 = document.querySelector(".a3");
+      const n4 = document.querySelector(".a4");
+      const n5 = document.querySelector(".a5");
+      const n6 = document.querySelector(".a6");
+      const n8 = document.querySelector(".a8");
+      const n9 = document.querySelector(".a9");
+      const n11 = document.querySelector(".a11");
+      const n13 = document.querySelector(".a13");
+
+      const a1 = annotate(n1, { type: "highlight", color: "#3be37332" });
+      const a2 = annotate(n2, { type: "highlight", color: "#97e72e51" });
+      const a3 = annotate(n3, { type: "highlight", color: "#33f3432f" });
+      const a4 = annotate(n4, { type: "highlight", color: "#f3e6335b" });
+      const a5 = annotate(n5, { type: "highlight", color: "#48d8005e" });
+      const a6 = annotate(n6, { type: "highlight", color: "#58f74947" });
+      const a8 = annotate(n8, { type: "highlight", color: "#aeeb0835" });
+      const a9 = annotate(n9, { type: "underline", color: "#6cace446" });
+      const a11 = annotate(n11, { type: "underline", color: "#ffb71c6e" });
+      const a13 = annotate(n13, { type: "underline", color: "#6cace446" });
 
       const ag = annotationGroup([a6, a2, a4, a9, a11, a13, a8, a5, a3, a1]);
       ag.show();
-
     </script>
-
-</body>
-
+  </body>
 </html>

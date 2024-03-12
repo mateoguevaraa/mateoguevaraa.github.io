@@ -1,181 +1,184 @@
 @media screen and (min-width: 1025px) {
+  .nav-header {
+    margin-top: 10px;
+  }
 
-    .nav-header {
-        margin-top: 10px;
-    }
+  .line-izq {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 20px;
+    content: " ";
+    display: block;
+    position: fixed;
+    background: #000000;
+    z-index: 1000;
+  }
 
-    .line-izq {
-        left: 0;
-        top: 0;
-        height: 100%;
-        width: 20px;
-        content: " ";
-        display: block;
-        position: fixed;
-        background: #000000;
-        z-index: 1000;
-    }
-    
-    .line-arriba {
-        top: 0;
-        left: 0;
-        height: 20px;
-        width: 100%;
-        content: " ";
-        display: block;
-        position: fixed;
-        background: #000000;
-        z-index: 1000;
-    }
-    
-    .line-abajo {
-        bottom: 0;
-        left: 0;
-        height: 20px;
-        width: 100%;
-        content: " ";
-        display: block;
-        position: fixed;
-        background: #000000;
-        z-index: 1000;
-    }
+  .line-arriba {
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 100%;
+    content: " ";
+    display: block;
+    position: fixed;
+    background: #000000;
+    z-index: 1000;
+  }
 
-    .arg {
-        display: inline !important;
-    }
+  .line-abajo {
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    width: 100%;
+    content: " ";
+    display: block;
+    position: fixed;
+    background: #000000;
+    z-index: 1000;
+  }
 
-
+  .arg {
+    display: inline !important;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-
-    .arg {
-        display: inline !important;
-    }
-    
+  .arg {
+    display: inline !important;
+  }
 }
 
 body {
-    font-family: 'Nunito', sans-serif; /* Default text font */
+  font-family: "Nunito", sans-serif; /* Default text font */
 }
 
-h1, h2, h3 {
-    font-family: 'Montserrat', sans-serif; /* Headings font */
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif; /* Headings font */
 }
 
 p {
-    font-family: 'Roboto', sans-serif; /* Alternate headings font */
-    color: rgba(0, 0, 0, 0.805);
-    text-wrap: pretty;
+  font-family: "Roboto", sans-serif; /* Alternate headings font */
+  color: rgba(0, 0, 0, 0.805);
+  text-wrap: pretty;
 }
 
 .subheadings {
-    font-family: 'Open Sans', sans-serif; /* Subheadings font */
+  font-family: "Open Sans", sans-serif; /* Subheadings font */
 }
 
 /* If needed, specify specific elements using Poppins */
 .special-text {
-    font-family: 'Poppins', sans-serif; /* Special text font */
+  font-family: "Poppins", sans-serif; /* Special text font */
 }
 
 .content {
-    margin: auto;
-    max-width: 40.5rem; 
-    padding: 1.5rem 1.45rem; 
-    font-size: 1.1rem; 
-    letter-spacing: 0.9px;
+  margin: auto;
+  max-width: 39.5rem;
+  padding: 1.5rem 1.45rem;
+  font-size: 1.1rem;
+  letter-spacing: 0.9px;
 }
 
 #acerca a {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 a {
-    text-decoration: none !important;
-    color: rgba(0, 0, 0, 0.842) !important;
-    font-weight: 500;
+  text-decoration: none !important;
+  color: rgba(0, 0, 0, 0.842) !important;
+  font-weight: 500;
 }
 
 #acerca p {
-    line-height: 1.4rem;
-    font-size: 1.1rem;
-    margin-bottom: 8px;
+  line-height: 1.4rem;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
 }
 
 .pro {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 ::-webkit-scrollbar {
-    width: 20px;
+  width: 20px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #fefefe;
-    border-left: 9px solid #000000;
-    border-right: 9px solid #000000;
-    border-top: 20px solid #000000;
-    border-bottom: 20px solid #000000;
+  background-color: #fefefe;
+  border-left: 9px solid #000000;
+  border-right: 9px solid #000000;
+  border-top: 20px solid #000000;
+  border-bottom: 20px solid #000000;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 img {
-    background-size: cover;
-    max-width: 100%;
-    border-radius: 5px;
+  background-size: cover;
+  max-width: 100%;
+  border-radius: 5px;
 }
 
 #proyectos span.info {
-    font-family: 'Roboto', sans-serif; 
-    font-size: 0.9rem; 
-    line-height: 2px !important;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  line-height: 2px !important;
+}
+
+#projects span.info {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  line-height: 2px !important;
 }
 
 button.github:hover {
-    background-color: rgba(0, 0, 0, 0.707) !important;
-    color: rgb(255, 255, 255) !important;
-    border-color: rgba(0, 0, 0, 0.022) !important;
+  background-color: rgba(0, 0, 0, 0.707) !important;
+  color: rgb(255, 255, 255) !important;
+  border-color: rgba(0, 0, 0, 0.022) !important;
 }
 
 button.cv:hover {
-    background-color: rgba(232, 232, 232, 0.255) !important;
-    color: rgba(0, 0, 0, 0.73) !important;
-    border-color: rgba(198, 198, 198, 0.401) !important;
+  background-color: rgba(232, 232, 232, 0.255) !important;
+  color: rgba(0, 0, 0, 0.73) !important;
+  border-color: rgba(198, 198, 198, 0.401) !important;
 }
 
 #descripción p {
-    color:rgba(0, 0, 0, 0.707)
+  color: rgba(0, 0, 0, 0.707);
 }
 
 #contacto a:hover {
-    color: #000000a6 !important;
+  color: #000000a6 !important;
 }
 
 #descripción a:hover {
-    color: #000000a6 !important;
+  color: #000000a6 !important;
 }
 
 .dropdown-menu {
-    min-width: 3rem !important;
-    background-color: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
-    color: black;
+  min-width: 3rem !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: black;
 }
 
 .dropdown-menu a.dropdown-item:hover {
-    background-color: transparent !important; /* Change the background color on hover */
-    color: black !important; /* Change the text color on hover */
+  background-color: transparent !important; /* Change the background color on hover */
+  color: black !important; /* Change the text color on hover */
 }
 
 .arg {
-    display: flex;
+  display: flex;
 }
 
 .nav-item {
-    margin-right: -8px !important;
+  margin-right: -8px !important;
 }
